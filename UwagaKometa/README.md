@@ -97,12 +97,9 @@ uwagakometa/
 
 ## 🔑 Zmienne środowiskowe
 
-**Good news!** 🎉 Open-Meteo API jest **CAŁKOWICIE BEZPŁATNE** i **NIE wymaga klucza API**!
-
 Plik `.env` jest już skonfigurowany i aplikacja będzie działać od razu po instalacji.
 
 ```env
-# Open-Meteo API - brak klucza wymaganego!
 # Aplikacja działa out-of-the-box
 ```
 
