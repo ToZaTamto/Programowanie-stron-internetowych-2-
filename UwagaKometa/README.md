@@ -21,7 +21,7 @@ Reaktywna aplikacja pogodowa zbudowana z Vue 3 + Vite, pobierająca dane w czasi
 | **Stylowanie** | CSS3 + CSS Modules |
 | **HTTP Client** | Axios |
 | **Testy** | Vitest + Vue Test Utils |
-| **API** | [Open-Meteo](https://open-meteo.com/en/docs) (FREE, no API key needed!) |
+| **API** | [Open-Meteo](https://open-meteo.com/en/docs)  |
 
 ## 🚀 Szybki start
 
@@ -154,26 +154,4 @@ Projekt jest gotowy do deploymentu na:
 
 Projekt używa [Conventional Commits](https://www.conventionalcommits.org/):
 
-```
-feat: dodaj funkcję wyszukiwania
-fix: napraw bug w filterowaniu
-test: dodaj testy dla WeatherCard
-docs: aktualizuj README
-chore: zaktualizuj zależności
-```
 
-## 🤝 Wkład
-
-Zgłoszenia i pull requesty są mile widziane! 
-
-## 📄 Licencja
-
-MIT License – zobacz [LICENSE](./LICENSE)
-
-## 📮 Kontakt
-
-Pytania? Utwórz issue na GitHubie!
-
----
-
-**Stworzono z ❤️ dla studentów** | © 2026
