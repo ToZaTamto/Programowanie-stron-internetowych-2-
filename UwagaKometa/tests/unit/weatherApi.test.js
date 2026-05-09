@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { formatTemp } from '../src/utils/weatherApi'
+import { formatTemp } from '../../src/utils/weatherApi'
 
 describe('weatherApi utils', () => {
   it('should format temperature (already in Celsius)', () => {

@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
-import WeatherCard from '../src/components/WeatherCard.vue'
+import WeatherCard from '../../src/components/WeatherCard.vue'
 
 describe('WeatherCard.vue', () => {
   const mockWeather = {
@@ -30,7 +30,7 @@ describe('WeatherCard.vue', () => {
   })
 
   it('displays favourite star correctly', () => {
-    const { rerender } = mount(WeatherCard, {
+    const wrapper = mount(WeatherCard, {
       props: {
         weather: mockWeather,
         isFavourite: false

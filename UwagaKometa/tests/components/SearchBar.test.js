@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
-import SearchBar from '../src/components/SearchBar.vue'
+import SearchBar from '../../src/components/SearchBar.vue'
 
 describe('SearchBar.vue', () => {
   it('renders search input and button', () => {

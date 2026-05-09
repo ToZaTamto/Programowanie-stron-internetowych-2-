@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { useFavourites } from '../src/composables/useFavourites'
+import { useFavourites } from '../../src/composables/useFavourites'
 
 describe('useFavourites composable', () => {
   beforeEach(() => {
