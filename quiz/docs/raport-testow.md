@@ -83,7 +83,8 @@ Wynik z komendy `npm run test:coverage`:
 | Functions | 100% |
 | Lines | 99.02% |
 
-Raport HTML zostal wygenerowany w katalogu `coverage/index.html`. Do oddania mozna dolaczyc screenshot tej strony albo zrzut tabeli z terminala.
+<img width="1919" height="349" alt="image" src="https://github.com/user-attachments/assets/0f28ae50-8e59-4f8f-9879-e7ba28b0efe8" />
+
 
 ## 8. Zaobserwowane problemy
 
