@@ -147,8 +147,5 @@ Projekt jest gotowy do deploymentu na:
 - **Netlify** – Skonfiguruj build command: `npm run build`
 - **GitHub Pages** – Use `gh-pages` branch
 
-## 🔒 Konwencje commitów
-
-Projekt używa [Conventional Commits](https://www.conventionalcommits.org/):
 
 
