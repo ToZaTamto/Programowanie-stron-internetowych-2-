@@ -40,10 +40,29 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p ../pages-artifact/UwagaKometa
+          cp -r dist/* ../pages-artifact/UwagaKometa/
+          cat > ../pages-artifact/index.html <<'EOF'
+          <!doctype html>
+          <html lang="pl">
+            <head>
+              <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <meta http-equiv="refresh" content="0; url=./UwagaKometa/">
+              <title>UwagaKometa</title>
+            </head>
+            <body>
+              <a href="./UwagaKometa/">Przejdz do UwagaKometa</a>
+            </body>
+          </html>
+          EOF
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: UwagaKometa/dist
+          path: pages-artifact
 
   deploy:
     environment:
